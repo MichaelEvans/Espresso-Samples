@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:showDividers="middle"
+    android:divider="@drawable/divider"
+    android:orientation="vertical"
+    >
+
+  <Button
+      android:id="@+id/pick_contact"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/select_contact"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/phone_number_label"
+      style="@style/Base.TextAppearance.AppCompat.Medium"
+      />
+
+  <TextView
+      android:id="@+id/phone_number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      style="@style/Base.TextAppearance.AppCompat.Small"
+      />
+
+</LinearLayout>
